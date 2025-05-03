@@ -16,7 +16,7 @@ const SearchBar: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-md">
+    <form onSubmit={handleSubmit} className="w-full">
       <div className="flex items-center border-2 rounded-lg overflow-hidden shadow-md">
         <input
           type="text"

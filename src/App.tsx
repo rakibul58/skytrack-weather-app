@@ -14,6 +14,8 @@ const App = () => {
   );
   const dispatch = useDispatch();
 
+  console.log({data});
+
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
@@ -28,7 +30,7 @@ const App = () => {
         darkMode ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"
       }`}
     >
-      <header className="w-full max-w-md flex justify-between items-center mb-8">
+      <header className="w-full max-w-xl gap-5 flex justify-between items-center mb-8">
         <h1 className="text-2xl sm:text-3xl font-bold">SkyTrack</h1>
         <button
           onClick={() => dispatch(toggleDarkMode())}
@@ -39,7 +41,7 @@ const App = () => {
         </button>
       </header>
 
-      <main className="w-full max-w-md flex flex-col items-center">
+      <main className="w-full max-w-xl flex flex-col items-center">
         <SearchBar />
 
         {loading && <LoadingSpinner />}

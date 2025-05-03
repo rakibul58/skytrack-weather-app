@@ -14,7 +14,7 @@ const WeatherCard: React.FC<WeatherCardProps> = ({ data }) => {
   const weatherCondition = weather[0];
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 w-full max-w-md transition-colors">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 w-full transition-colors mt-6">
       <div className="flex justify-between items-center mb-6">
         <div>
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white">{name}, {sys.country}</h2>

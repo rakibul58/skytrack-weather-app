@@ -38,7 +38,7 @@ const weatherSlice = createSlice({
         state.searchHistory = [
           action.payload.name,
           ...state.searchHistory,
-        ].slice(0, 5);
+        ].slice(0, 10);
         localStorage.setItem(
           "searchHistory",
           JSON.stringify(state.searchHistory)

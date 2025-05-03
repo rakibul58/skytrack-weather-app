@@ -21,7 +21,7 @@ const SearchHistory: React.FC = () => {
   };
 
   return (
-    <div className="mt-6 w-full max-w-md">
+    <div className="mt-6 w-full">
       <div className="flex justify-between items-center mb-2">
         <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Recent Searches</h3>
         <button
