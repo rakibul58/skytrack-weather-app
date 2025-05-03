@@ -4,6 +4,9 @@ export interface WeatherData {
     temp: number;
     humidity: number;
     feels_like: number;
+    temp_min: number;
+    temp_max: number;
+    pressure: number;
   };
   weather: Array<{
     id: number;
@@ -17,6 +20,7 @@ export interface WeatherData {
   sys: {
     country: string;
   };
+  visibility: number;
 }
 
 export interface WeatherState {
