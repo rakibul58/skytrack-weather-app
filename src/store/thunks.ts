@@ -1,7 +1,7 @@
 import { setLoading, setWeatherData, setError } from "./weatherSlice";
 import { AppDispatch } from "./store";
 
-const API_KEY = import.meta.env.REACT_APP_OPENWEATHER_API_KEY;
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 export const fetchWeather = (city: string) => async (dispatch: AppDispatch) => {
