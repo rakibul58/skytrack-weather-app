@@ -1,4 +1,4 @@
-# SkyTrack - Weather App
+# SkyTrack
 
 A responsive weather application built with React.js, TypeScript, Redux, and Tailwind CSS that allows users to search for cities and view current weather information.
 
