@@ -48,7 +48,7 @@ const SearchHistory: React.FC = () => {
         <div className="flex items-center">
           <Clock size={16} className="text-gray-500 dark:text-gray-400 mr-2" />
           <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Recent Searches
+            Recent
           </h3>
         </div>
         <motion.button
