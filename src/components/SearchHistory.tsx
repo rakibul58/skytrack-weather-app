@@ -59,7 +59,7 @@ const SearchHistory: React.FC = () => {
           whileTap={{ scale: 0.95 }}
         >
           <X size={14} className="mr-1" />
-          Clear All
+          Clear
         </motion.button>
       </div>
 
