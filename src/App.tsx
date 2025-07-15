@@ -90,7 +90,7 @@ const App = () => {
         </motion.div>
       </main>
 
-      <footer className="mt-auto py-6 w-full text-center text-gray-600 dark:text-gray-500 text-sm">
+      <footer className="mt-auto py-6 w-full text-center text-gray-700 dark:text-gray-600 text-sm">
         <p>SkyTrack App © {new Date().getFullYear()}</p>
         <p className="mt-1">Data provided by OpenWeatherMap</p>
       </footer>
